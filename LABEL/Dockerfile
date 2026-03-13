@@ -1,4 +1,4 @@
-FROM Almalinux:9
+FROM almalinux:9
 LABEL COURSE="DEVOPS" \
       TRAINER="SIVA" \
       DURATION="12HRS"
