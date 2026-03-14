@@ -1,3 +1,6 @@
 FROM almalinux:9
+RUN dnf install git -y
+RUN useradd miasha
+USER miasha
 CMD ["google.com"]
 ENTRYPOINT ["ping"]
