@@ -1,5 +1,5 @@
 FROM almalinux:9
-LABEL COURSE="DEVOPS" \
+ENV COURSE="DEVOPS" \
       TRAINER="SIVA" \
       DURATION="12HRS"
 CMD ["sleep", "infinity"]
